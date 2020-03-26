@@ -6,5 +6,6 @@ namespace VehicleConsoleApplication
 {
     class SeaVehicle : Vehicle
     {
+        
     }
 }
