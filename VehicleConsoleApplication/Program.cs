@@ -7,7 +7,7 @@ namespace VehicleConsoleApplication
         public static void DriveSedanCar()
         {
             Sedancar sedanObj = new Sedancar();
-            Console.WriteLine("1. Move Forward 2. Move Backward 3. GetCurrentPossition 4. About Vehicle 0.GetOutFromvehicle");
+            Console.WriteLine("1. Move Forward 2. Move Backward 3. GetCurrentPossition 4. About Vehicle 0. GetOutFromvehicle");
             while (true)
             {
                 string driveOption = Console.ReadLine();
@@ -38,7 +38,7 @@ namespace VehicleConsoleApplication
         public static void DriveSuvCar()
         {
             Suvcar suvObj = new Suvcar();
-            Console.WriteLine("1. Move Forward 2. Move Backward 3. GetCurrentPossition 4. About Vehicle 0.GetOutFromvehicle");
+            Console.WriteLine("1. Move Forward 2. Move Backward 3. GetCurrentPossition 4. About Vehicle 0. GetOutFromvehicle");
             while (true)
             {
                 string driveOption = Console.ReadLine();
@@ -68,7 +68,7 @@ namespace VehicleConsoleApplication
         public static void DriveBiCycle()
         {
             Bicycle bicylceObj = new Bicycle();
-            Console.WriteLine("1. Move Forward 2. Move Backward 3. GetCurrentPossition 4. About Vehicle 0.GetOutFromvehicle");
+            Console.WriteLine("1. Move Forward 2. Move Backward 3. GetCurrentPossition 4. About Vehicle 0. GetOutFromvehicle");
             while (true)
             {
                 string driveOption = Console.ReadLine();
@@ -98,7 +98,7 @@ namespace VehicleConsoleApplication
         public static void DriveBoat()
         {
             Boat boatObj = new Boat();
-            Console.WriteLine("1. Move Forward 2. Move Backward 3. GetCurrentPossition 0.GetOutFromvehicle");
+            Console.WriteLine("1. Move Forward 2. Move Backward 3. GetCurrentPossition 0. GetOutFromvehicle");
             while (true)
             {
                 string driveOption = Console.ReadLine();
