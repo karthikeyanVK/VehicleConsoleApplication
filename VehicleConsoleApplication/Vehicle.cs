@@ -37,5 +37,13 @@ namespace VehicleConsoleApplication
             Console.WriteLine("Current Position of the " + vehicleName + "is " + postionOfvehicle);
             return postionOfvehicle;
         }
+        public virtual void TurnLeft()
+        {
+            Console.WriteLine(vehicleName + " Moves Left Direction");
+        }
+        public virtual void TurnRight()
+        {
+            Console.WriteLine(vehicleName + " Moves Right Direction");
+        }
     }
 }
